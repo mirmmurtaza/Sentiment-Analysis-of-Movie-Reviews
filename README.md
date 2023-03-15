@@ -23,5 +23,5 @@ The Large Movie Review Dataset can be downloaded from [this link](http://ai.stan
 
 ## Results
 
-Approach 1: Test accuracy - 87%
-Approach 2: test accuracy - 82%
+- Approach 1: Test accuracy - 87%
+- Approach 2: test accuracy - 82%
