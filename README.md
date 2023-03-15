@@ -15,7 +15,7 @@ In the first approach, the Bag of Words model is used to create a representation
 
 ### Approach 2: Word Embeddings with LSTM
 
-In the second approach, Word Embeddings and LSTM (Long Short-Term Memory) networks are used. The text data is preprocessed and tokenized using the Keras Tokenizer. The sequences are then padded to a fixed length. An LSTM model is built with an Embedding layer, two stacked Bidirectional LSTM layers, a Dense layer with ReLU activation, and a Dropout layer to avoid overfitting. The model is compiled with binary crossentropy loss and the Adam optimizer, and trained on the padded sequences.
+In the second approach, Word Embeddings and LSTM (Long Short-Term Memory) networks are used. The text data is preprocessed and tokenized using the Keras Tokenizer. The sequences are then padded to a fixed length. An LSTM model is built with an Embedding layer. The model is compiled with binary crossentropy loss and the Adam optimizer, and trained on the padded sequences.
 
 ## Dataset
 
